@@ -1,0 +1,29 @@
+{
+  "params": {
+    "x_start": -0.8,
+    "x_stop": 0.8,
+    "x_step": 0.1,
+    "y_start": -1.8,
+    "y_stop": -0.2,
+    "y_step": 0.1,
+    "serpentine": true,
+    "settle_ms": 1.0,
+    "row_wait_ms": 4.0,
+    "samples_per_point": 10,
+    "sample_rate": 21000.0,
+    "safety_limit_v": 5.0
+  },
+  "sim": true,
+  "device": null,
+  "x": "ao1",
+  "y": "ao0",
+  "pd": "ai0",
+  "term": "差分",
+  "auto": false,
+  "dir": "C:\\Users\\lpm\\Desktop\\labpd\\galvo_scan\\data",
+  "autolevel": false,
+  "last_pos": [
+    0.0,
+    0.0
+  ]
+}
